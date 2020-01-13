@@ -7,19 +7,19 @@
 </p>
 
 
-
+## Prechod do užívateľského módu
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/moving.png" width="600" title="Set user mode">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/moving.png" width="900" title="Set user mode">
 </p>
 
-
+## Zväčenie zmenšenie
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/up-down.png" width="600" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/up-down.png" width="200" title="scale-unscale">
 </p>
 
-
+### Zmena módu
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/mode.png" width="600" title="Change mode">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/mode.png" width="300" title="Change mode">
 </p>
 
 
