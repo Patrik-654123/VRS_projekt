@@ -1,4 +1,4 @@
 # VRS_projekt
 
-##Snimač gest, pomocou laserového
+## Snimač gest, pomocou laserového
 
