@@ -1,4 +1,6 @@
 # VRS_projekt
 
-## Snimač gest, pomocou laserového
+## detekcia gest pohybu ruky pomocou laserového snímača VL53LX
+
+
 
