@@ -6,9 +6,11 @@
 - mikrokontrolér STM
 
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/sensor.png" width="600" title="sensor scheme">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/sensor.png" width="500" title="sensor scheme">
 </p>
 
+### Funkcia:
+V snímanom poli štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto zmeny sú spracované pomocou mikrokontroléra STM, a vyhodnotené do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikacia je schopná ovládať užívateľské rozhranie OS, a funguje vo viacerých módoch.
 
 ## Prechod do užívateľského módu
 <p align="center">
