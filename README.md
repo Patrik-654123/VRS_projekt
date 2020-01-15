@@ -18,11 +18,17 @@ V snímanom poli štvorice laserových diaľkových snímačov VL53L1X, sú zazn
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
-Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky v oblasti -change mode zone- (viď. obr.1) po dobu jednej sekundy.  
+Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky v oblasti -change mode zone- (viď. obr.1)  po dobu jednej sekundy.  
 
-## Zväčenie zmenšenie
+## Funkcie módu kurzor a práca s nimi
+Mód kurzoru obsahuje funkcie na pracu s kurzorm v OS. 
+Pohyb kurzora myši vykonáme: 
+-podržaním ruky v oblasti -gest detection zone- (viď. obr.1) po dobu jednej sekundy.
+-táto vzdialanosť sa následne nastavý ako východza poloha 
+-kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo) a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu). Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne. 
+-mód obládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do obládania je potrebné postupovať od prvého kroku.
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/up-down.png" width="200" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
 </p>
 
 ### Zmena módu
