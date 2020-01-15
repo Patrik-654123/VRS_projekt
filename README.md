@@ -6,7 +6,7 @@
 - mikrokontrolér STM
 
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/sensor.png" width="500" title="sensor scheme">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="500" title="sensor scheme">
 </p>
 
 ### Funkcia:
@@ -14,17 +14,17 @@ V snímanom poli štvorice laserových diaľkových snímačov VL53L1X, sú zazn
 
 ## Prechod do užívateľského módu
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/moving.png" width="900" title="Set user mode">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/moving.png" width="900" title="Set user mode">
 </p>
 
 ## Zväčenie zmenšenie
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/up-down.png" width="200" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/up-down.png" width="200" title="scale-unscale">
 </p>
 
 ### Zmena módu
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/mode.png" width="300" title="Change mode">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
 
 
