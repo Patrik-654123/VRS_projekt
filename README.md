@@ -1,7 +1,9 @@
 # VRS_projekt
 
-## Názov projektu:
-### Rozpoznávanie gest VL53LX
+## Názov projektu: Rozpoznávanie gest snímačom VL53LX
+### Využitý hardvér:
+- DPS so štvoricou laserových diaľkových snámačov VL53LX 
+- mikrokontrolér STM
 
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/sensor.png" width="600" title="sensor scheme">
