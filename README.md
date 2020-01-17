@@ -49,7 +49,7 @@ K funkcií pristúpime:
 </p>
 Okrem tejto funkcie obsahuje užívateľský mód aj fukciu pre listovanie. Pre prepnutie listu dokumentu vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí na ľavej strane snímača.
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="800" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
 </p>
 
 
