@@ -32,7 +32,7 @@ K pohybu kurzora pristúpime:
 </p>
 Okrem pohybu kurzorom sa tomto móde vykonáva aj stlačenie tlačidla v zmysle ľavý/pravý klik myši.
 <p align="center">
-   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click.png" width="300" title="Change mode">
+   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click.png" width="600" title="Change mode">
 </p>
 
 
