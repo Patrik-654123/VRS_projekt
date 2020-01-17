@@ -31,6 +31,8 @@ K pohybu kurzora pristúpime:
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
 </p>
 Okrem pohybu kurzorom sa tomto móde vykonáva aj stlačenie tlačidla v zmysle ľavý/pravý klik myši.
+Ľavý klik vykonýme pohybom ruky z ľavej snímača smerom v pravo, následne v ľavo, mimo dosah snímača. Pri pohybe do prava však ruka nesmie vyjsť von z dosahu snímača.
+Pravý klik vykonáme rovnako ako pravý, len postupujeme z pravej strany.
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click.png" width="500" title="Change mode">
 </p>
