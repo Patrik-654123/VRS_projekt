@@ -23,7 +23,7 @@ Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -ch
 ### Funkcie módu kurzor a práca s nimi
 Mód kurzoru obsahuje funkcie na pracu s kurzorm v OS. 
 K pohybu kurzora pristúpime: 
-- podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy.
+- podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastavý ako východza poloha 
 - kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo) a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu). Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
 - mód obládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do obládania je potrebné postupovať od prvého kroku
@@ -39,6 +39,19 @@ Pravý klik vykonáme rovnako ako pravý, len postupujeme z pravej strany.
 
 
 ### Funkcie uživateľského módu a práca s nimi
+Užívateľký mód umožnuje obsahuje funkciu pre rolovanie a približovanie aktívneho okna OS. 
+K funkcií pristúpime: 
+- podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
+- táto vzdialanosť sa následne nastavý ako východza poloha 
+- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere, približovanie dokumetu, pohybom ruky v horizontálnom smere
+<p align="center">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
+</p>
+Okrem tejto funkcie obsahuje užívateľský mód aj fukciu pre listovanie. Pre prepnutie listu dokumentu vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí na ľavej strane snímača.
+<p align="center">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="800" title="scale-unscale">
+</p>
+
 
 
 
