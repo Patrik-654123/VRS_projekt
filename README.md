@@ -13,7 +13,7 @@
 V snímanom poli štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto zmeny sú spracované pomocou mikrokontroléra STM, a vyhodnotené do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikacia je schopná ovládať užívateľské rozhranie OS a funguje vo viacerých módoch.
 
 ### Prechod medzi jednotlivými módmi
-- mód kurzoru
+- mód kurzor
 - uživateľský mód
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
@@ -29,6 +29,10 @@ K pohybu kurzora pristúpime:
 - mód obládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do obládania je potrebné postupovať od prvého kroku
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
+</p>
+Okrem pohybu kurzorom sa tomto móde vykonáva aj stlačenie tlačidla v zmysle ľavý/pravý klik myši.
+<p align="center">
+   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click.png" width="300" title="Change mode">
 </p>
 
 
