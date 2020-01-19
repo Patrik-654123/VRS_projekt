@@ -27,12 +27,12 @@ K pohybu kurzora pristúpime:
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastavý ako východzia poloha 
 - kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo), a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu). Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
-- mód obládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do ovládania kurzora je potrebné postupovať od prvého kroku
+- mód ovládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do ovládania kurzora, je potrebné postupovať od prvého kroku
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
 </p>
 Okrem pohybu kurzora sa tomto móde vykonáva aj stlačenie tlačidla v zmysle ľavý/pravý klik myši.
-Ľavý klik vykonýme pohybom ruky z ľavej strany snímača smerom vpravo, následne vľavo, mimo dosah snímača. Pri pohybe do prava však ruka nesmie vyjsť von z dosahu snímača.
+Ľavý klik vykonýme pohybom ruky z ľavej strany snímača smerom vpravo, následne vľavo, mimo dosah snímača. Pri pohybe doprava však ruka nesmie vyjsť von z dosahu snímača.
 Pravý klik vykonáme rovnako ako pravý, len postupujeme z pravej strany snímača.
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click.png" width="500" title="Change mode">
@@ -45,11 +45,11 @@ K funkcií pristúpime:
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastavý ako východza poloha 
 - rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere
-- funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat opäť pristupujeme od prvého kroku.
+- funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="800" title="scale-unscale">
 </p>
-Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie. Pre prepnutie listu dokumentu vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí na ľavej strane snímača.
+Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
 </p>
