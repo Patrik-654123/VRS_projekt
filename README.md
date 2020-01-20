@@ -74,25 +74,28 @@ Pre našu potrebu sme si definovali 3 typy správ:
 
 ### Prostredie
 Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
+
 <p align="center">
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/bar_menu.png" width="300" title="menu">
 </p>
+
 Hlavné okno aplikácie obsahuje niekoľko prvkov vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
 V sekcii Mode selection sa nachádzajú na výber 3 módy
+
 <p align="center">
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/nahlad.png" width="400" title="nahlad">
 </p>
-#### -Cursor mode
-#### -User mode
-#### -Fast action
 
-pričom posledný obsahuje 3 režimy v ktorých môže vykonávať príkazy:
+- Cursor mode
+- User mode
+- Fast action
 
-#### Close application
+Posledný mód má užívateľom voliteľné 3 režimy v ktorých môže vykonávať príkazy:
+- Close application
 V tomto režime po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows.
-#### Switch application
+- Switch application
 Po vykonaní rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami.
-#### Open application
+- Open application
 V tomto režime si vie užívateľ vybrať jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu.
 
 V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých príkazov a ich časovú značku. Hneď pod ním sú k dispozícii opcie pre mód kurzoru vďaka ktorým je možné nastaviť rýchlosť akou sa kurzor v danom smere bude hýbať.
