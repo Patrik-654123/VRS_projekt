@@ -91,12 +91,9 @@ V sekcii Mode selection sa nachádzajú na výber 3 módy
 - Fast action
 
 Posledný mód má užívateľom voliteľné 3 režimy v ktorých môže vykonávať príkazy:
-- Close application
-V tomto režime po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows.
-- Switch application
-Po vykonaní rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami.
-- Open application
-V tomto režime si vie užívateľ vybrať jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu.
+- Close application: v tomto režime po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows
+- Switch application: vykonaním rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami
+- Open application: užívateľ si vyberie jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu
 
 V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých príkazov a ich časovú značku. Hneď pod ním sú k dispozícii opcie pre mód kurzoru vďaka ktorým je možné nastaviť rýchlosť akou sa kurzor v danom smere bude hýbať.
 Po kliknutí na tlačidlo Show data vyvoláme okno s grafom. V tomto grafe sú vykresľované vzdialenosti z každého snímača so vzorkovacou periódou 100 ms.
