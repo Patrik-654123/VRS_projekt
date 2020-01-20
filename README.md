@@ -101,3 +101,9 @@ Po kliknutí na tlačidlo Show data vyvoláme okno s grafom. V tomto grafe sú v
 <p align="center">
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/nahlad_data.png" width="400" title="data">
 </p>
+
+Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctvom notifikácie
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/mode.png" width="300" title="mode">
+</p>
