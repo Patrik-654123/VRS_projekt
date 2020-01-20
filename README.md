@@ -91,7 +91,7 @@ V sekcii Mode selection sa nachádzajú na výber 3 módy
 - Fast action
 
 Posledný mód má užívateľom voliteľné 3 režimy v ktorých môže vykonávať príkazy:
-- Close application: v tomto režime po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows
+- Close application: po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows
 - Switch application: vykonaním rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami
 - Open application: užívateľ si vyberie jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu
 
