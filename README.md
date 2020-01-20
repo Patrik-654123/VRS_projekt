@@ -58,6 +58,7 @@ Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu
 Posledným módom aplikácie je mód rýchleho prepnutia obrazovky. Ak snímač deteguje pohyb v oblasti -gestesture detection zone- (viď. obr.1), aplikácia zavrie aktuálne otvorené okno. 
 
 
+## Obslužná aplikácia
 
 
 
