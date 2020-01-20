@@ -67,9 +67,9 @@ Aby boli jednoznačne rozlíšené každé odosielané dáta bolo nevyhnutné de
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/sprava.png" width="400" title="message">
 </p>
 Pre našu potrebu sme si definovali 3 typy správ:
--	B – označuje live byte vyjadrený hodnotou 0 až 255; Pr. -B_125%
--	D – označuje vzdialenosti zo senzorov a obsahuje 4 hodnoty; Pr. -D_100_210_200_50%
--	CMD – označuje príkaz za ktorým nasledujú 3 hodnoty pomocou ktorých sa rozlišuje typ príkazu a jeho parametre; Pr. -CMD_3_2_5%
+-B – označuje live byte vyjadrený hodnotou 0 až 255; Pr: -B_125%
+-D – označuje vzdialenosti zo senzorov a obsahuje 4 hodnoty; Pr. -D_100_210_200_50%
+-CMD – označuje príkaz za ktorým nasledujú 3 hodnoty pomocou ktorých sa rozlišuje typ príkazu a jeho parametre; Pr. -CMD_3_2_5%
 
 ### Aplikácia
 
