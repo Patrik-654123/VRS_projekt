@@ -65,7 +65,7 @@ Obslužná aplikácia napísaná v jazyku C# zabezpečuje obojsmernú komunikác
 Aby boli jednoznačne rozlíšené každé odosielané dáta bolo nevyhnutné definovať štruktúru a význam odosielaných dát. Každá správa obsahuje začiatočný znak – a ukončovací znak %.
 
 <p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sprava.png" width="500" title="sensor scheme">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/sprava.png" width="400" title="message">
 </p>
 
 Pre našu potrebu sme si definovali 3 typy správ:
