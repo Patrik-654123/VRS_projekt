@@ -63,20 +63,28 @@ Obslužná aplikácia napísaná v jazyku C# zabezpečuje obojsmernú komunikác
 
 ### Komunikačný protokol
 Aby boli jednoznačne rozlíšené každé odosielané dáta bolo nevyhnutné definovať štruktúru a význam odosielaných dát. Každá správa obsahuje začiatočný znak – a ukončovací znak %.
-
 <p align="center">
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/sprava.png" width="400" title="message">
 </p>
-
 Pre našu potrebu sme si definovali 3 typy správ:
 -	B – označuje live byte vyjadrený hodnotou 0 až 255; Pr. -B_125%
 -	D – označuje vzdialenosti zo senzorov a obsahuje 4 hodnoty; Pr. -D_100_210_200_50%
 -	CMD – označuje príkaz za ktorým nasledujú 3 hodnoty pomocou ktorých sa rozlišuje typ príkazu a jeho parametre; Pr. -CMD_3_2_5%
 
 ### Aplikácia
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/bar_menu.png" width="300" title="menu">
+</p>
+
 Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/nahlad.png" width="400" title="nahlad">
+</p>
+
 Hlavné okno aplikácie obsahuje niekoľko prvkov vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
-V sekcii Mode selection sa nachádzajú na výber 3 módy,
+V sekcii Mode selection sa nachádzajú na výber 3 módy
 -	Cursor mode
 -	User mode
 -	Fast action
