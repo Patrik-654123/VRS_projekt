@@ -109,6 +109,7 @@ Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctv
 </p>
 
 ## Spustenie obslužnej aplikácie
+[Dowland](https://github.com/Patrik-654123/VRS_projekt/blob/master/App.zip)
 - obslužná aplikácia sa nachádza v priečinku App
 - po stiahnutí sa spustí otvorením VRS_Projekt.exe
 - snímač sa pripojí do USB portu počítača
