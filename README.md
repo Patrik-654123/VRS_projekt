@@ -107,3 +107,10 @@ Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctv
 <p align="center">
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/mod.png" width="300" title="mod">
 </p>
+
+## Spustenie obslužnej aplikácie
+- obslužná aplikácia sa nachádza v priečinku App
+- po stiahnutí sa spustí otvorením VRS_Projekt.exe
+- snímač sa pripojí do USB portu počítača
+- aplikácia nadviaže komunikáciu so snímačom
+- všetko je pripravené
