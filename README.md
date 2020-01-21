@@ -108,7 +108,7 @@ Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctv
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/mod.png" width="300" title="mod">
 </p>
 
-## Spustenie obslužnej aplikácie
+## Spustenie obslužnej aplikácie a pripojenie zariadenia
 
 - stiahnite [aplikáciu](https://github.com/Patrik-654123/VRS_projekt/blob/master/App.zip)
 - po stiahnutí spustite VRS_Projekt.exe
