@@ -1,8 +1,8 @@
 # VRS_projekt
 
-## Rozpoznávanie gest snímačom VL53LX
+## Rozpoznávanie gest snímačom VL53L1X
 ### Využitý hardvér:
-- DPS so štvoricou laserových diaľkových snímačov VL53LX 
+- DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
 
 <p align="center">
