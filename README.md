@@ -25,8 +25,8 @@ Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -ch
 Tento mód obsahuje funkcie na prácu s kurzorom. 
 K pohybu kurzora pristúpime: 
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
-- táto vzdialanosť sa následne nastaví ako východzia poloha 
-- kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo), a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu). Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
+- táto vzdialanosť sa následne nastaví ako východisková poloha 
+- kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo), a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu), rýchlosť pohybu kurzora je úmerná vzdialanosti od východiskovej polohy. Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
 - mód ovládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do ovládania kurzora, je potrebné postupovať od prvého kroku
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
@@ -43,8 +43,8 @@ Pravý klik vykonáme rovnako ako ľavý, len postupujeme z pravej strany sníma
 Užívateľký mód obsahuje funkciu pre rolovanie a približovanie aktívneho okna OS. 
 K funkcií pristúpime: 
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
-- táto vzdialanosť sa následne nastaví ako východza poloha 
-- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere
+- táto vzdialanosť sa následne nastaví ako východisková poloha 
+- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere. Rýchlosť rolovania a približovania sa mení s rastúcou vzdialenosťou ruky od východiskovej polohy
 - funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
