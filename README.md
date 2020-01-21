@@ -9,7 +9,7 @@
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="500" title="sensor scheme">
 </p>
 
-### Popis:
+### Popis projektu
 V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto pohyby sú zosnímané a pomocou mikrokontroléra STM spracované. Mikrokontrolér zmeny vyhodnotí do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikácia je schopná ovládať užívateľské rozhranie OS, a funguje vo viacerých módoch.
 
 ### Módy a prechod medzi nimi
@@ -44,7 +44,7 @@ Užívateľký mód obsahuje funkciu pre rolovanie a približovanie aktívneho o
 K funkcií pristúpime: 
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastaví ako východisková poloha 
-- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere. Rýchlosť rolovania a približovania sa mení s rastúcou vzdialenosťou ruky od východiskovej polohy
+- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere, pričom rýchlosť rolovania sa zvyšuje s rastúcou vzdialenosťou od východiskovej polohy. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere
 - funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
