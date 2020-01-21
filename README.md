@@ -110,7 +110,7 @@ Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctv
 
 ## Spustenie obslužnej aplikácie
 
-- stiahnite aplikáciu [dowland](https://github.com/Patrik-654123/VRS_projekt/blob/master/App.zip)
+- stiahnite [aplikáciu](https://github.com/Patrik-654123/VRS_projekt/blob/master/App.zip)
 - po stiahnutí spustite VRS_Projekt.exe
 - pripojte snímač do USB portu
 - aplikácia nadviaže komunikáciu so snímačom
