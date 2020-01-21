@@ -55,7 +55,7 @@ Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu
 </p>
 
 ### Funkcia rýchleho prepnutia
-Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prepnutia však funguje aj pri uživateľskom móde a móde kurzora, kedy sa deteguje gesto v zmysle rýchleho pohybu v snímanom poli -gestesture detection zone- (viď. obr.1). Ak sa používateľ nachádza práve v tomto móde, funguje len detegovanie spomínaného rýchleho pohybu a ostatné gestá sa nevyhodnocujú. Akcia na toto gesto sa dá zmeniť v obslužnej aplikácií, kde má užívateľ na výber z troch režimov. 
+Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prepnutia však funguje aj pri uživateľskom móde a móde kurzora, kedy sa deteguje gesto v zmysle rýchleho pohybu v snímanom poli -gestesture detection zone- (viď. obr.1). Ak sa užívateľ nachádza práve v tomto móde, funguje len detegovanie spomínaného rýchleho pohybu a ostatné gestá sa nevyhodnocujú. Akcia na toto gesto sa dá zmeniť v obslužnej aplikácií, kde má užívateľ na výber z troch režimov. 
 
 
 ## Obslužná aplikácia
