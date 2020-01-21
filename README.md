@@ -58,6 +58,52 @@ Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu
 Posledným módom aplikácie je mód rýchleho prepnutia obrazovky. Ak snímač deteguje pohyb v oblasti -gestesture detection zone- (viď. obr.1), aplikácia zavrie aktuálne otvorené okno. 
 
 
+## Obslužná aplikácia
+Obslužná aplikácia napísaná v jazyku C# zabezpečuje obojsmernú komunikáciu po sériovej linke so zariadením STM a vykonávanie príkazov na základe prijatých správ podľa typu detegovaného gesta.
 
+### Komunikačný protokol
+Aby boli jednoznačne rozlíšené každé odosielané dáta bolo nevyhnutné definovať štruktúru a význam odosielaných dát. Každá správa obsahuje začiatočný znak – a ukončovací znak %.
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/sprava.png" width="400" title="message">
+</p>
 
+Pre našu potrebu sme si definovali 3 typy správ:
+- B: označuje live byte vyjadrený hodnotou 0 až 255; Pr: -B_125%
+- D: označuje vzdialenosti zo senzorov a obsahuje 4 hodnoty; Pr. -D_100_210_200_50%
+- CMD: označuje príkaz za ktorým nasledujú 3 hodnoty pomocou ktorých sa rozlišuje typ príkazu a jeho parametre; Pr. -CMD_3_2_5%
 
+### Prostredie
+Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/bar_menu.png" width="300" title="menu">
+</p>
+
+Hlavné okno aplikácie obsahuje niekoľko prvkov vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
+V sekcii Mode selection sa nachádzajú na výber 3 módy
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/nahlad.png" width="400" title="nahlad">
+</p>
+
+- Cursor mode
+- User mode
+- Fast action
+
+Posledný mód má užívateľom voliteľné 3 režimy v ktorých môže vykonávať príkazy:
+- Close application: po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows
+- Switch application: vykonaním rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami
+- Open application: užívateľ si vyberie jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu
+
+V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých príkazov a ich časovú značku. Hneď pod ním sú k dispozícii opcie pre mód kurzoru vďaka ktorým je možné nastaviť rýchlosť akou sa kurzor v danom smere bude hýbať.
+Po kliknutí na tlačidlo Show data vyvoláme okno s grafom. V tomto grafe sú vykresľované vzdialenosti z každého snímača so vzorkovacou periódou 100 ms.
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/nahlad_data.png" width="400" title="data">
+</p>
+
+Pri každej zmene módu pomocou gesta je užívateľ informovaný prostredníctvom notifikácie.
+
+<p align="center">
+    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/mod.png" width="300" title="mod">
+</p>
