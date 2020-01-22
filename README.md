@@ -19,7 +19,7 @@ V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaz
 - mód kurzor
 - uživateľský mód
 - mód rýchleho prepnutia
-[obr 1.]
+
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
