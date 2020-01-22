@@ -16,8 +16,9 @@ V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaz
 - mód kurzor
 - uživateľský mód
 - mód rýchleho prepnutia
+[obr 1.]
 <p align="center">
-   [obr1.]<img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
+   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
 Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -change mode zone- (viď. obr.1), po dobu jednej sekundy.  
 
@@ -44,7 +45,7 @@ Užívateľký mód obsahuje funkciu pre rolovanie a približovanie aktívneho o
 K funkcií pristúpime: 
 - podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastaví ako východisková poloha - v tejto polohe sa rolovanie nevykonáva
-- rolovanie dokumentu vykonáme pohybom ruky vo vertikálnom smere, pričom rýchlosť rolovania sa zvyšuje s rastúcou vzdialenosťou od východiskovej polohy. Pre približovanie dokumetu pohybujeme rukou v horizontálnom smere
+- rolovanie obsahu aktívneho okna vykonáme pohybom ruky vo vertikálnom smere, pričom rýchlosť rolovania sa zvyšuje s rastúcou vzdialenosťou od východiskovej polohy. Pre približovanie obsahu aktívneho okna, pohybujeme rukou v horizontálnom smere
 - funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
