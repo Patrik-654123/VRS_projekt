@@ -8,7 +8,7 @@
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="700" title="Change">
 </p>
 
-
+![Obr.1.](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
 
 ### Popis projektu
 V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto pohyby sú zosnímané a pomocou mikrokontroléra STM spracované. Mikrokontrolér zmeny vyhodnotí do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikácia je schopná ovládať užívateľské rozhranie OS, a funguje vo viacerých módoch.
