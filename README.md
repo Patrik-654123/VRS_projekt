@@ -17,7 +17,7 @@ V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaz
 - uživateľský mód
 - mód rýchleho prepnutia
 <p align="center">
-   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
+   [obr1.]<img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
 Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -change mode zone- (viď. obr.1), po dobu jednej sekundy.  
 
