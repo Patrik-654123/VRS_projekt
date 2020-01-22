@@ -8,7 +8,7 @@
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="700" title="Change">
 </p>
 <p align="center">
-   * obr.1. *
+   *obr.1*
 </p>
 
 
