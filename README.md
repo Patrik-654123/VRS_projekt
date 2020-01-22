@@ -50,7 +50,7 @@ K funkcií pristúpime:
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
 </p>
-Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
+Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu,fotografie,.. vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
 </p>
