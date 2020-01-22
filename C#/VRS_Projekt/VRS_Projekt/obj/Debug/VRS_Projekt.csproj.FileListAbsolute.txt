@@ -1,0 +1,12 @@
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\bin\Debug\VRS_Projekt.exe.config
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\bin\Debug\VRS_Projekt.exe
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\bin\Debug\VRS_Projekt.pdb
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\bin\Debug\WindowsInput.dll
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\bin\Debug\WindowsInput.xml
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.Form1.resources
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.Properties.Resources.resources
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.csproj.GenerateResource.cache
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.csproj.CopyComplete
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.exe
+C:\Users\Sendrik\Documents\C#\VRS_Projekt\VRS_Projekt\obj\Debug\VRS_Projekt.pdb
