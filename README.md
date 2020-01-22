@@ -59,7 +59,7 @@ Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prep
 
 
 # Návod na obsluhu aplikácie
-Obslužná aplikácia napísaná v jazyku C# zabezpečuje obojsmernú komunikáciu po sériovej linke so zariadením STM a vykonávanie príkazov na základe prijatých správ podľa typu detegovaného gesta.
+Obslužná aplikácia napísaná v jazyku C# zabezpečuje komunikáciu po sériovej linke so zariadením STM a vykonávanie príkazov na základe prijatých správ podľa typu detegovaného gesta.
 
 ### Prostredie
 Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
