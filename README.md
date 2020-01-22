@@ -58,19 +58,8 @@ Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu
 Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prepnutia však funguje aj pri uživateľskom móde a móde kurzora, kedy sa deteguje gesto v zmysle rýchleho pohybu v snímanom poli -gestesture detection zone- (viď. obr.1). Ak sa užívateľ nachádza práve v tomto móde, funguje len detegovanie spomínaného rýchleho pohybu a ostatné gestá sa nevyhodnocujú. Akcia na toto gesto sa dá zmeniť v obslužnej aplikácií, kde má užívateľ na výber z troch režimov. 
 
 
-# Obslužná aplikácia
+# Návod na obsluhu aplikácie
 Obslužná aplikácia napísaná v jazyku C# zabezpečuje obojsmernú komunikáciu po sériovej linke so zariadením STM a vykonávanie príkazov na základe prijatých správ podľa typu detegovaného gesta.
-
-### Komunikačný protokol
-Aby boli jednoznačne rozlíšené každé odosielané dáta bolo nevyhnutné definovať štruktúru a význam odosielaných dát. Každá správa obsahuje začiatočný znak – a ukončovací znak %.
-<p align="center">
-    <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/sprava.png" width="400" title="message">
-</p>
-
-Pre našu potrebu sme si definovali 3 typy správ:
-- B: označuje live byte vyjadrený hodnotou 0 až 255; Pr: -B_125%
-- D: označuje vzdialenosti zo senzorov a obsahuje 4 hodnoty; Pr. -D_100_210_200_50%
-- CMD: označuje príkaz za ktorým nasledujú 3 hodnoty pomocou ktorých sa rozlišuje typ príkazu a jeho parametre; Pr. -CMD_3_2_5%
 
 ### Prostredie
 Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
