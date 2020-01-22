@@ -4,10 +4,8 @@
 ### Využitý hardvér:
 - DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
+
 ![GitHub Logo](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
-<p align="center">
-    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="500" title="sensor scheme">
-</p>
 
 ### Popis projektu
 V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto pohyby sú zosnímané a pomocou mikrokontroléra STM spracované. Mikrokontrolér zmeny vyhodnotí do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikácia je schopná ovládať užívateľské rozhranie OS, a funguje vo viacerých módoch.
