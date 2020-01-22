@@ -5,7 +5,7 @@
 - DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
 <p align="center">
-   ![GitHub Logo](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="700" title="Change mode">
 </p>
 
 
