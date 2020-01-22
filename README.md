@@ -4,7 +4,7 @@
 ### Využitý hardvér:
 - DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
-
+![GitHub Logo](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="500" title="sensor scheme">
 </p>
