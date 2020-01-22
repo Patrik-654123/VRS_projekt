@@ -4,8 +4,11 @@
 ### Využitý hardvér:
 - DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
+<p align="center">
+   ![GitHub Logo](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
+</p>
 
-![GitHub Logo](https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png)
+
 
 ### Popis projektu
 V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaznamenávané rôzne pohyby ruky. Tieto pohyby sú zosnímané a pomocou mikrokontroléra STM spracované. Mikrokontrolér zmeny vyhodnotí do podoby rôznych gest. Informácia o detegovanom geste je poslaná do aplikácie v PC, ktorá beží na pozadí OS. Aplikácia je schopná ovládať užívateľské rozhranie OS, a funguje vo viacerých módoch.
@@ -67,7 +70,7 @@ Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty
     <img src="https://github.com/Sendrik-C/VRS_projekt/blob/master/images/bar_menu.png" width="300" title="menu">
 </p>
 
-Hlavné okno aplikácie obsahuje niekoľko prvkov vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
+Hlavné okno aplikácie obsahuje niekoľko prvkov, vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
 V sekcii Mode selection sa nachádzajú na výber 3 módy
 
 <p align="center">
@@ -78,12 +81,12 @@ V sekcii Mode selection sa nachádzajú na výber 3 módy
 - User mode
 - Fast action
 
-Posledný mód má užívateľom voliteľné 3 režimy v ktorých môže vykonávať príkazy:
+Posledný mód má užívateľom voliteľné 3 režimy, v ktorých môže vykonávať príkazy:
 - Close application: po prijatí príkazu sa zatvorí aktuálna aplikácia, ktorá beží na popredí v prostredí Windows
 - Switch application: vykonaním rýchleho gesta je možné sa prepínať medzi aktuálne bežiacimi aplikáciami
 - Open application: užívateľ si vyberie jednu zo štyroch preddefinovaných aplikácií, ktorá sa otvorí po prijatí príkazu
 
-V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých príkazov a ich časovú značku. Hneď pod ním sú k dispozícii opcie pre mód kurzoru vďaka ktorým je možné nastaviť rýchlosť akou sa kurzor v danom smere bude hýbať.
+V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých príkazov a ich časovú značku. Hneď pod ním sú k dispozícii opcie pre mód kurzoru, vďaka ktorým je možné nastaviť rýchlosť, akou sa kurzor v danom smere bude hýbať.
 Po kliknutí na tlačidlo Show data vyvoláme okno s grafom. V tomto grafe sú vykresľované vzdialenosti z každého snímača so vzorkovacou periódou 100 ms.
 
 <p align="center">
