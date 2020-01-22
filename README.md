@@ -23,12 +23,12 @@ V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaz
 <p align="center">
    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mode.png" width="300" title="Change mode">
 </p>
-Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -change mode zone- (viď. obr.1), po dobu jednej sekundy.  
+Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -change mode zone- (pozri obr. 1), po dobu jednej sekundy.  
 
 ### Funkcie módu kurzor a práca s nimi
 Tento mód obsahuje funkcie na prácu s kurzorom. 
 K pohybu kurzora pristúpime: 
-- podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
+- podržaním ruky v oblasti -gestesture detection zone- (pozri obr. 1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastaví ako východisková poloha - v tejto polohe sa kurzor nepohybuje  
 - kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo), a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu), rýchlosť pohybu kurzora je úmerná vzdialanosti od východiskovej polohy. Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
 - mód ovládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do ovládania kurzora, je potrebné postupovať od prvého kroku
@@ -46,20 +46,20 @@ Pravý klik vykonáme rovnako ako ľavý, len postupujeme z pravej strany sníma
 ### Funkcie uživateľského módu a práca s nimi
 Užívateľký mód obsahuje funkciu pre rolovanie a približovanie aktívneho okna OS. 
 K funkcií pristúpime: 
-- podržaním ruky v oblasti -gestesture detection zone- (viď. obr.1) po dobu jednej sekundy
+- podržaním ruky v oblasti -gestesture detection zone- (pozri obr. 1) po dobu jednej sekundy
 - táto vzdialanosť sa následne nastaví ako východisková poloha - v tejto polohe sa rolovanie nevykonáva
 - rolovanie obsahu aktívneho okna vykonáme pohybom ruky vo vertikálnom smere, pričom rýchlosť rolovania sa zvyšuje s rastúcou vzdialenosťou od východiskovej polohy. Pre približovanie obsahu aktívneho okna, pohybujeme rukou v horizontálnom smere
 - funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
 </p>
-Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu,fotografie,.. vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
+Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu, fotografie a pod. vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
 </p>
 
 ### Funkcia rýchleho prepnutia
-Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prepnutia však funguje aj pri uživateľskom móde a móde kurzora, kedy sa deteguje gesto v zmysle rýchleho pohybu v snímanom poli -gestesture detection zone- (viď. obr.1). Ak sa užívateľ nachádza práve v tomto móde, funguje len detegovanie spomínaného rýchleho pohybu a ostatné gestá sa nevyhodnocujú. Akcia na toto gesto sa dá zmeniť v obslužnej aplikácií, kde má užívateľ na výber z troch režimov. 
+Posledným módom je mód rýchleho prepnutia obrazovky. Nastavená funkcia prepnutia však funguje aj pri uživateľskom móde a móde kurzora, kedy sa deteguje gesto v zmysle rýchleho pohybu v snímanom poli -gestesture detection zone- (pozri obr. 1). Ak sa užívateľ nachádza práve v tomto móde, funguje len detegovanie spomínaného rýchleho pohybu a ostatné gestá sa nevyhodnocujú. Akcia na toto gesto sa dá zmeniť v obslužnej aplikácií, kde má užívateľ na výber z troch režimov. 
 
 
 # Návod na obsluhu aplikácie
