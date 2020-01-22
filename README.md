@@ -6,9 +6,10 @@
 - mikrokontrolér STM
 <p align="center">
     <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="700" title="Change">
-    obr.1.
 </p>
-
+<p align="center">
+   * obr.1. *
+</p>
 
 
 ### Popis projektu
