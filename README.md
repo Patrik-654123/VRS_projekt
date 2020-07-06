@@ -5,7 +5,7 @@
 - DPS so štvoricou laserových diaľkových snímačov VL53L1X
 - mikrokontrolér STM
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/sensor.png" width="700" title="Change">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/sensor.png" width="700" title="Change">
 </p>
 <p align="center">
    (obr.1)
@@ -21,7 +21,7 @@ V snímanom poli, štvorice laserových diaľkových snímačov VL53L1X, sú zaz
 - mód rýchleho prepnutia
 
 <p align="center">
-   <img src="https://github.com/Sendrik-C/VRSProjekt/master/images/mode.png" width="300" title="Change mode">
+   <img src="https://github.com/Patrik-654123/VRS_projekt/master/images/mode.png" width="300" title="Change mode">
 </p>
 Zmenu medzi jednotlivými módmi vykonáme podržnaním ruky vo vzdialenosti -change mode zone- (pozri obr. 1), po dobu jednej sekundy.  
 
@@ -33,13 +33,13 @@ K pohybu kurzora pristúpime:
 - kurzor potom ovládame pohybom ruky v horizontálnom smere (reprezentuje pohyb kurzora vpravo/vľavo), a vo vertikálnom smere (reprezentuje pohyb ruky hore/dolu), rýchlosť pohybu kurzora je úmerná vzdialanosti od východiskovej polohy. Jednotlivé pohyby sa nedajú kombinovať a kurzor sa pohybuje buď vertikálne alebo horizontálne
 - mód ovládania kurzora sa preruší akonáhle ruka opustí detegovaný priestor. Pre navrátenie do ovládania kurzora, je potrebné postupovať od prvého kroku
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/hold.png" width="850" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
 </p>
 Okrem pohybu kurzora sa v tomto móde vykonáva aj stlačenie tlačidla v zmysle ľavý/pravý klik myši.
 Ľavý klik vykonáme pohybom ruky z ľavej strany snímača smerom vpravo, následne vľavo, mimo dosah snímača. Pri pohybe doprava však ruka nesmie vyjsť von z dosahu snímača.
 Pravý klik vykonáme rovnako ako ľavý, len postupujeme z pravej strany snímača.
 <p align="center">
-   <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/click1.png" width="500" title="Change mode">
+   <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/click1.png" width="500" title="Change mode">
 </p>
 
 
@@ -51,11 +51,11 @@ K funkcií pristúpime:
 - rolovanie obsahu aktívneho okna vykonáme pohybom ruky vo vertikálnom smere, pričom rýchlosť rolovania sa zvyšuje s rastúcou vzdialenosťou od východiskovej polohy. Pre približovanie obsahu aktívneho okna, pohybujeme rukou v horizontálnom smere
 - funkcia sa preruší pokiaľ počas horizontálneho pohybu ruka opustí detegovaný priestor. Pre návrat funkcionality pristupujeme od prvého kroku.
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/hold.png" width="850" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/hold.png" width="850" title="scale-unscale">
 </p>
 Okrem možnosti rolovať a približovať obsahuje užívateľský mód aj fukciu pre listovanie (prepínanie strán). Pre prepnutie listu dokumentu, fotografie a pod. vpravo, vykonáme horizontálny pohyb z ľavej strany snímača smerom vpravo, pričom ruka musí vyjsť z dosahu snímaného priestoru. Pre prepnutie listu vľavo postupujeme rovnako, len pohyb začína na pravej strane a končí naľavo od snímača.
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/left-right.png" width="300" title="scale-unscale">
 </p>
 
 ### Funkcia rýchleho prepnutia
@@ -69,14 +69,14 @@ Obslužná aplikácia napísaná v jazyku C# zabezpečuje komunikáciu po sério
 Po spustení aplikácia beží na pozadí, pričom je možné zo stavovej lišty vyvolať rýchle menu. Menu zobrazuje aktuálne zvolený mód a umožňuje jeho zmenu.
 
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/bar_menu.png" width="300" title="menu">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/bar_menu.png" width="300" title="menu">
 </p>
 
 Hlavné okno aplikácie obsahuje niekoľko prvkov, vďaka ktorým máme podrobný prehľad o stave aplikácie a prijímaných dátach. V ľavej časti sa nachádza Live byte pre signalizáciu aktívneho spojenia so zariadením.
 V sekcii Mode selection sa nachádzajú na výber 3 módy
 
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/nahlad.png" width="400" title="nahlad">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/nahlad.png" width="400" title="nahlad">
 </p>
 
 - Cursor mode
@@ -92,13 +92,13 @@ V pravom hornom rohu sa nachádza okno, ktoré obsahuje históriu prijatých pr�
 Po kliknutí na tlačidlo Show data vyvoláme okno s grafom. V tomto grafe sú vykresľované vzdialenosti z každého snímača so vzorkovacou periódou 100 ms.
 
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/nahlad_data.png" width="400" title="data">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/nahlad_data.png" width="400" title="data">
 </p>
 
 Pri každej zmene módu je užívateľ informovaný prostredníctvom notifikácie.
 
 <p align="center">
-    <img src="https://github.com/Sendrik-C/VRSProjekt/blob/master/images/mod.png" width="300" title="mod">
+    <img src="https://github.com/Patrik-654123/VRS_projekt/blob/master/images/mod.png" width="300" title="mod">
 </p>
 
 ## Spustenie obslužnej aplikácie a pripojenie zariadenia
